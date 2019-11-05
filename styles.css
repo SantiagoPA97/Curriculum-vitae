@@ -1,0 +1,105 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EAE8FF;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h3{
+    font-size: 1em;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    color: #4B1D3F;
+}
+
+h1, h2, .nombre{
+    text-align: center;
+}
+
+p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container{
+    border-top: #D62246 0.2em solid;
+    border-bottom: #D62246 0.2em solid;
+    border-radius: 20px;
+}
+
+.container-fluid, .container{
+    padding: 2em;
+    margin-bottom: 10px;
+}
+
+.perfil, .laborales, .familiares{
+    border: #D62246 0.2em solid;
+    border-radius: 20px;
+    background-color: #2D3142;
+}
+
+.perfil, .laborales, .familiares p{
+    color: #EAE8FF;
+}
+
+.laborales h2, .laborales h3, .familiares h2, .familiares h3, .perfil h2, .perfil h3{
+    color: #B0D7FF;
+}
+
+.estudios{
+    text-align: center;
+}
+
+.foto{
+    width: 250px;
+    height: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.estudios, .titulo{
+    text-align: justify;
+}
+
+p.estudios, .cuadrado h3{
+    color: #000000;
+}
+
+.cuadrado{
+    background-color: white;
+    height: 13em;
+}
+
+.conocimiento{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#tituloEstudios{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#tituloReferenciasLaborales{
+    margin-bottom: 2em;
+}
+
+
+.conocimientos li, .conocimientos h2{
+    color: #000000;
+}
+
+#conocimientos{
+    background-color: white;
+}
