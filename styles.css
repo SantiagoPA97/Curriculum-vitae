@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #EAE8FF;
+    background-color: white;
 }
 
 h1{
@@ -32,8 +32,8 @@ p{
 }
 
 .container{
-    border-top: #D62246 0.2em solid;
-    border-bottom: #D62246 0.2em solid;
+    border-top: #2271B3 0.2em solid;
+    border-bottom: #2271B3 0.2em solid;
     border-radius: 20px;
 }
 
@@ -43,17 +43,17 @@ p{
 }
 
 .perfil, .laborales, .familiares{
-    border: #D62246 0.2em solid;
+    border: #2271B3 0.2em solid;
     border-radius: 20px;
-    background-color: #2D3142;
+    background-color: #D7D7D7;
 }
 
 .perfil, .laborales, .familiares p{
-    color: #EAE8FF;
+    color: #000000;
 }
 
 .laborales h2, .laborales h3, .familiares h2, .familiares h3, .perfil h2, .perfil h3{
-    color: #B0D7FF;
+    color: #2271B3;
 }
 
 .estudios{
