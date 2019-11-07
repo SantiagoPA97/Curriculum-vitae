@@ -3,82 +3,48 @@ body{
     background-color: white;
 }
 
+#infoPersonal{
+    background-color: #393d42;
+}
+
+#infoPersonal h1, #infoPersonal h2, #infoPersonal h3, #infoPersonal p{
+    color: white;
+}
+
 h1{
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
 }
 
 h2{
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 h3{
+    font-weight: bold;
     font-size: 1em;
 }
 
-h1, h2, h3{
+.empresa{
     font-weight: bold;
-    color: #4B1D3F;
 }
 
-h1, h2, .nombre{
-    text-align: center;
+.curso{
+    font-style: italic;
 }
-
 p{
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.container{
-    border-top: #2271B3 0.2em solid;
-    border-bottom: #2271B3 0.2em solid;
-    border-radius: 20px;
-}
-
 .container-fluid, .container{
     padding: 2em;
-    margin-bottom: 10px;
-}
-
-.perfil, .laborales, .familiares{
-    border: #2271B3 0.2em solid;
-    border-radius: 20px;
-    background-color: #F6F6F6;
-}
-
-.perfil, .laborales, .familiares p{
-    color: #000000;
-}
-
-.laborales h2, .laborales h3, .familiares h2, .familiares h3, .perfil h2, .perfil h3{
-    color: #2271B3;
-}
-
-.estudios{
-    text-align: center;
-}
-
-.foto{
-    width: 250px;
-    height: 280px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p.estudios, .titulo{
     text-align: justify;
-}
-
-p.estudios, .cuadrado h3{
-    color: #000000;
-}
-
-.cuadrado{
-    background-color: white;
-    height: 13em;
 }
 
 .conocimiento{
@@ -86,20 +52,21 @@ p.estudios, .cuadrado h3{
     margin-bottom: auto;
 }
 
-#tituloEstudios{
+#tituloEstudios, #tituloReferenciasLaborales {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#tituloReferenciasLaborales{
-    margin-bottom: 2em;
-}
 
-
-.conocimientos li, .conocimientos h2{
+.conocimientos li{
     color: #000000;
 }
 
 #conocimientos{
-    background-color: white;
+    height: 100%;
+}
+
+.contenedor, .contenedor li{
+    background-color: #393d42;;
+    color: white;
 }
