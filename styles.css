@@ -3,14 +3,6 @@ body{
     background-color: white;
 }
 
-#infoPersonal{
-    background-color: #393d42;
-}
-
-#infoPersonal h1, #infoPersonal h2, #infoPersonal h3, #infoPersonal p{
-    color: white;
-}
-
 h1{
     font-size: 2em;
     text-align: center;
@@ -27,6 +19,11 @@ h3{
     font-size: 1em;
 }
 
+p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .empresa{
     font-weight: bold;
 }
@@ -34,17 +31,9 @@ h3{
 .curso{
     font-style: italic;
 }
-p{
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
 .container-fluid, .container{
     padding: 2em;
-}
-
-p.estudios, .titulo{
-    text-align: justify;
 }
 
 .conocimiento{
@@ -52,21 +41,32 @@ p.estudios, .titulo{
     margin-bottom: auto;
 }
 
-#tituloEstudios, #tituloReferenciasLaborales {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-
 .conocimientos li{
     color: #000000;
+}
+
+.contenedor, .contenedor li{
+    background-color: #393d42;;
+    color: white;
 }
 
 #conocimientos{
     height: 100%;
 }
 
-.contenedor, .contenedor li{
-    background-color: #393d42;;
+#perfil{
+    text-align: justify;
+}
+
+#tituloEstudios, #tituloReferenciasLaborales {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#infoPersonal{
+    background-color: #393d42;
+}
+
+#infoPersonal h1, #infoPersonal h2, #infoPersonal h3, #infoPersonal p{
     color: white;
 }
